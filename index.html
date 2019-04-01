@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' href='index.css'>
-        <script src='index.js'></script>
+        <!-- <script src='index.js'></script> -->
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.1/css/all.css' integrity='sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf' crossorigin='anonymous'>
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:100,400|Inknut+Antiqua:900|Source+Sans+Pro:300" rel="stylesheet">    
     </head>
     <aside>
-        <figure>
+        <figure class="bioStyle">
             <div class='profileDiv'><img src='asset/profile.png' class='profileImage' alt='profile'></div>
-            <figcaption>Fullstack developer in training.</figcaption>            
-            <summary>I'm a current Front End Web Development student at Thinkful, I love coding and getting into the zone and solving problems. It is very gratifying to see ideas come to life through code.
-                </summary>
-            <summary>Outside of coding, I enjoy challenging games, cooking and high energy music.
-                </summary>            
-            <ul class='socialicons'>
-                <li><a href='https://github.com/iz-1' class='fab fa-github'></a></li>
-                <li><a href='mailto:gtsmang@gmail.com' class='far fa-envelope'></a></li>
-            </ul>                    
-            <div class='sidebarcontainer'><span class='tagline'>GS 2019</span></div>
+            <article>
+                <figcaption>Fullstack developer in training.</figcaption>
+                <summary>I'm a current Front End Web Development student at Thinkful, I love coding and getting into the zone and solving problems. It is very gratifying to see ideas come to life through code.
+                    </summary>
+                <summary>Outside of coding, I enjoy challenging games, cooking and high energy music.
+                    </summary>
+                    <ul class='socialicons'>
+                            <li><a href='https://github.com/iz-1'><i class='fab fa-github'></i></a></li>
+                            <li><a href='mailto:gtsmang@gmail.com'><i class='far fa-envelope'></i></a></li>                    
+                    </ul>           
+            </article>         
         </figure>
     </aside>
     <main>
         <section class='sm' style='background-image: url(asset/quizapp.jpg);''>
-            <header>IZOne Quiz App <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i></header>
-            <div class='content'>
-                Test your knowledge of this newly formed music group from the collaboration between the makers of Produce 101 and AKB48. 
+            <header><span class='projectTitle'>IZOne Quiz App</span> 
+                <mark><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i></mark>
+            </header>
+            <div class='content projectText'>Test your knowledge of this newly formed music group from the collaboration between the makers of Produce 101 and AKB48. 
             </div>
             <footer>                
-                <a href='https://iz-1.github.io/izone-quiz' class='fas fa-external-link-square-alt'></a>
-                <a href='https://github.com/iz-1/izone-quiz' class='fab fa-github'></a>
+                <a href='https://iz-1.github.io/izone-quiz'><i class='fas fa-external-link-square-alt'></i></a>
+                <a href='https://github.com/iz-1/izone-quiz'><i class='fab fa-github'></i></a>
             </footer>
         </section>
-        <section class='mm'>test</section>
-        <section class='lg'>test</section>
-        <section class='mm'>test</section>
-        <section class='sm'>test</section>
-        <section class='lg'>test</section>
-        <section class='sm'>test</section>        
+    
+        <section class='mm'><span class='projectTitle'>Test</span></section>
+        <section class='lg'><span class='projectTitle'>Test</span></section>
+        <section class='mm'><span class='projectTitle'>Test</span></section>
+        <section class='sm'><span class='projectTitle'>Test</span></section>
+        <section class='lg'><span class='projectTitle'>Test</span></section>
+        <section class='sm'><span class='projectTitle'>Test</span></section>        
+    
+        <div class='tagline'>GS 2019</div>
     </main>
 </html>
